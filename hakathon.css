@@ -68,6 +68,7 @@
 
 }
 .main .main_3 h3{
+
     text-align: center;
     margin: 30px;
 }
@@ -129,9 +130,13 @@
     .main .main_1 .content .p2{
         display: block;
     }
+    .main_2{
+        flex-direction: column;
+        align-items: center;
+    }
     .main .main_2 .content{
         margin-bottom: 50px;
-        width: 100%;
+        width: 50%;
         text-align: center;
         background-color: rgb(255, 255, 255);
     }
